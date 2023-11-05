@@ -1,0 +1,191 @@
+/* start general rules */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+p{
+    font-family:"Roboto slab" ,sans-serif;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h2{
+
+    margin-bottom: 16px;
+    font-family: 'Monrserrat' , sans-serif;
+    font-size: 40px;
+    font-weight: 700px;
+    text-transform: capitalize;
+}
+.section-heading p{
+    font-family:"Roboto slab" ,sans-serif;
+    color: #6c757d;
+    font-style: italic;
+    margin-bottom: 64px;
+}
+/* end general rules */
+/* start nav */
+nav{
+    top: 0;
+    margin-top: -62px;
+    background-color: #2a2a2c94;
+    padding: 15px 0;
+    position: sticky;
+}
+nav .container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container img{
+    width: 187px;
+}
+nav .container ul{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .container ul li{
+
+}
+nav .container ul li a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+/* end nav */
+
+/* start main section */
+section{
+    
+    height:100vh;
+    background-image: url(../images/header-bg.jpg);
+    background-size: cover;
+}
+
+section .container{
+
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+section .container .content{
+    color: white;
+    text-align: center;
+    margin-top: 62px;
+}
+section .container .content p{
+    font-family:"Roboto slab" ,sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+section .container .content h1{
+    font-family: 'Monrserrat' , sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+section .container .content input{
+    background-color: #FFC800;
+    font-family: 'Monrserrat' , sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: wheat;
+    width: 223px;
+    height: 68px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+/* end main section */
+
+/* start services */
+.services{
+    padding: 60px 0;
+}
+.services .container{
+
+}
+.services .container .services-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.services .container .services-items .service{
+    width: 30%;
+}
+.services .container .services-items .service i{
+    width: 128px;
+    height: 128px;
+    background-color: #FFC800;
+    color: white;
+    border-radius: 50%;
+    font-size: 71px;
+    text-align: center;
+    line-height: 120px;
+}
+.services .container .services-items .service h2{
+    text-transform: capitalize;
+    font-size: 24px;
+    margin: 16px 0;
+}
+.services .container .services-items .service p{
+    margin-bottom: 16px;
+    color: #6c757d;
+}
+/* end services */
+/* start portfolio */
+.portfolio{
+    background-color: #e9e8ea;
+    padding: 60px 0;
+}
+.portfolio .container .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.portfolio .container .items .item{
+    width: 380px;
+    text-align: center;
+    background-color: white;
+}
+.portfolio .container .items .item img{
+    width: 100%;
+    display: block;
+}
+.portfolio .container .items .item h3{
+    margin: 12px;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+.portfolio .container .items .item p{
+    margin: 12px;
+    color: #6c757d;
+    text-transform: capitalize;
+}
+/* end portfolio */
